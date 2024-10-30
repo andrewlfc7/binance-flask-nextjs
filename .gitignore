@@ -1,0 +1,11 @@
+backend/__pycache__
+backend/#
+backend/a
+backend/Create
+backend/environment
+backend/venv
+backend/virtual
+backend/Dockerfile
+
+docker-compose.yml 
+streaming-vm_key.pem
