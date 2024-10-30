@@ -14,7 +14,7 @@ import os
 app = Flask(__name__)
 
 # Load server IP from environment variable or use default
-server_ip = os.getenv("SERVER_IP", "http://74.179.57.198")
+server_ip = os.getenv("SERVER_IP", "http://127.0.0.1")
 
 # Configure CORS to allow requests from the specified server IP
 CORS(app, resources={
